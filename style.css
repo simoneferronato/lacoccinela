@@ -29,7 +29,6 @@ body {
     outline: 10px solid rgb(211, 6, 6);
     padding: 10px;
     margin: 10px;
-    
 }
 
 h1 {
@@ -49,7 +48,6 @@ h1 {
     background-size: cover;
     background-attachmeaunt: fixed;
 }
-
 
 article {
     background-color: rgba(20, 180, 49, 0.63);
@@ -100,8 +98,6 @@ h2 {
     outline-style: none;
     padding: 40px;
     margin: 70px;
-    
-    
 }
 
 h3 {
@@ -125,7 +121,6 @@ h3 {
 
 section > p, nav, aside {
     font-family: var(--fonte2);
-    
     height: center;
     width: center;
     text-align: center;
