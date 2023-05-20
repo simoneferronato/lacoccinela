@@ -1,0 +1,175 @@
+@charset "UTF 8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte1: 'Dancing Script', cursive;
+    --fonte2: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url(fotos/fundo1.jpg);
+    background-position: 100vh 100vw;
+    background-attachmeaunt: fixed;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: round;
+    box-shadow: 5px 5px 15px;
+    height: auto;
+    width: auto;
+    border: 10px solid rgb(7, 150, 33);
+    border-radius: 20px;
+    outline: 10px solid rgb(211, 6, 6);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+h1 {
+    background-image: url(fotos/fundo0.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    font-family: var(--fonte1);
+    font-size: 5em;
+    text-align: top left left;
+    text-shadow: 2px 2px 0px black;
+    color: rgb(199, 15, 15);
+    border: 5px solid rgb(7, 150, 33);
+    border-radius: 10px;
+    outline: 5px solid rgb(211, 6, 6);
+    padding: 60px 80px;
+    margin: 20px;
+    background-size: cover;
+    background-attachmeaunt: fixed;
+}
+
+
+article {
+    background-color: rgba(20, 180, 49, 0.63);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachmeaunt: fixed;
+    font-family: var(--fonte2);
+    font-size: 1em;
+    height: center;
+    width: center;
+    text-align: center;
+    border: 5px solid rgb(211, 6, 6);
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    margin: 0px 20px;
+}
+
+article > a {
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.3s;
+}
+
+article > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+
+h2 {
+    background-image: url(fotos/foto7.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachmeaunt: fixed;
+    font-family: var(--fonte2);
+    font-size: 2em;
+    height: center;
+    width: center;
+    text-align: center;
+    border: 5px solid rgb(211, 6, 6);
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    padding: 40px;
+    margin: 70px;
+    
+    
+}
+
+h3 {
+    background-image: url(fotos/foto15.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachmeaunt: fixed;
+    font-family: var(--fonte2);
+    font-size: 2em;
+    height: center;
+    width: center;
+    text-align: center;
+    border: 5px solid rgb(211, 6, 6);
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    padding: 40px;
+    margin: 70px;
+}
+
+section > p, nav, aside {
+    font-family: var(--fonte2);
+    
+    height: center;
+    width: center;
+    text-align: center;
+    border: 5px solid rgb(7, 150, 33);
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    padding: 25px;
+    margin: 70px;
+}
+
+nav {
+    background-image: url(fotos/foto18.jpeg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachmeaunt: fixed;
+    padding: 40px;
+    color: black;
+    border: 5px solid rgb(211, 6, 6);
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+aside {
+    background-image: url(fotos/mapa.jpg);
+    background-repeat: repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachmeaunt: fixed;
+    padding: 40px;
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(0, 0, 0, 6);
+    font-style: italic;
+    text-decoration: none;
+}
+
