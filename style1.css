@@ -35,7 +35,7 @@ header {
 
 header h1 {
     font-family: var(--fonte1);
-    font-size: 4rem;
+    font-size: 3.5em;
     font-weight: 900;
     color: rgb(240, 9, 9);
     text-shadow: 2px 2px 0px white;
