@@ -15,147 +15,162 @@
 }
 
 body {
-    background-image: url(fotos/fundo1.jpg);
-    background-position: 100vh 100vw;
+    background-image: url(fotos/fundo2.jpg);
     background-attachmeaunt: fixed;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: round;
-    box-shadow: 5px 5px 15px;
+    box-shadow: 1px 1px 15px;
     height: auto;
     width: auto;
-    border: 10px solid rgb(7, 150, 33);
-    border-radius: 20px;
-    outline: 10px solid rgb(211, 6, 6);
-    padding: 10px;
-    margin: 10px;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
-    background-image: url(fotos/fundo0.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
     background-position: right center;
     font-family: var(--fonte1);
-    font-size: 5em;
-    text-align: top left left;
-    text-shadow: 2px 2px 0px black;
     color: rgb(199, 15, 15);
-    border: 5px solid rgb(7, 150, 33);
-    border-radius: 10px;
-    outline: 5px solid rgb(211, 6, 6);
-    padding: 60px 80px;
-    margin: 20px;
-    background-size: cover;
-    background-attachmeaunt: fixed;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 2px 2px 0px white;
+    padding: 60px 100px;
+    margin: 0px;
+    border-radius: 5px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 article {
-    background-color: rgba(20, 180, 49, 0.63);
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
-    background-size: cover;
-    background-attachmeaunt: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: var(--fonte2);
     font-size: 1em;
-    height: center;
-    width: center;
     text-align: center;
-    border: 5px solid rgb(211, 6, 6);
-    border-radius: 5px;
+    padding: 20px 80px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.5);
+    border: 0px solid rgba(5, 5, 5, 0.1);
+    border-radius: 0px 5px;
     outline-width: 10px;
     outline-style: none;
-    margin: 0px 20px;
+    margin: 0px 0px;
+    
 }
 
 article > a {
-    color: black;
-    padding: 20px;
+    color: white;
+    padding: 15px;
     border-radius: 5px;
     text-decoration: none;
-    font-weight: bolder;
     transition-duration: 0.3s;
 }
 
 article > a:hover {
-    background-color: var(--cor4);
-    color: var(--cor2);
+    background-color: var(--cor0);
+    color: var(--cor0);
 }
 
 h2 {
-    background-image: url(fotos/foto7.jpeg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    background-attachmeaunt: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte2);
     font-size: 3em;
     height: center;
     width: center;
+    color: white;
     text-align: center;
-    border: 5px solid rgb(211, 6, 6);
     border-radius: 5px;
     outline-width: 10px;
     outline-style: none;
     padding: 40px;
     margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
-    background-image: url(fotos/foto15.jpeg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    background-attachmeaunt: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte2);
     font-size: 2em;
     height: center;
     width: center;
+    color: white;
     text-align: center;
-    border: 5px solid rgb(211, 6, 6);
     border-radius: 5px;
     outline-width: 10px;
     outline-style: none;
     padding: 40px;
     margin: 70px;
-}
-
-section > p, nav, aside {
-    font-family: var(--fonte2);
-    height: center;
-    width: center;
-    text-align: center;
-    border: 5px solid rgb(7, 150, 33);
-    border-radius: 5px;
-    outline-width: 10px;
-    outline-style: none;
-    padding: 25px;
-    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
-    background-image: url(fotos/foto18.jpeg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
-    background-attachmeaunt: fixed;
-    padding: 40px;
-    color: black;
-    border: 5px solid rgb(211, 6, 6);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.5);
+    font-family: var(--fonte2);
+    font-size: 2.3em;
     text-align: center;
-    font-size: 2em;
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    padding: 40px;
+    margin: 70px;   
+    height: center;
+    width: center;
+}
+
+nav  {
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+nav:hover {
+    background-color: var(--cor0);
+    color: var(--cor0);
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.5);
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 5px;
+    outline-width: 10px;
+    outline-style: none;
+    padding: 40px;
+    margin: 70px;  
+    height: center;
+    width: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 aside {
-    background-image: url(fotos/mapa.jpg);
-    background-repeat: repeat;
-    background-position: right;
-    background-size: cover;
-    background-attachmeaunt: fixed;
-    padding: 40px;
-    color: black;
-    text-align: center;
-    font-size: larger;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+aside:hover {
+    background-color: var(--cor0);
+    color: var(--cor0);
 }
 
 footer {
@@ -163,8 +178,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgba(0, 0, 0, 6);
+    color: rgba(0, 0, 0, 6);
     font-style: italic;
     text-decoration: none;
+    padding: 0px;
 }
 

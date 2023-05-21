@@ -7,15 +7,17 @@
 }
 
 body {
-    background-image: url(fotos/fundo1.jpg);
-    background-position: 100vh 100vw;
+    background-image: url(fotos/fundo2.jpg);
     background-attachmeaunt: fixed;
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: round;
-    box-shadow: 5px 5px 15px;
+    box-shadow: 1px 1px 15px;
     height: auto;
     width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 header {
@@ -43,7 +45,7 @@ header h1 {
 .galeria-itens {
     width: 340px;
     height: 250px;
-    border: 5px solid rgb(7, 150, 33);
+    border: 5px solid rgb(0, 26, 5);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
     transition: transform 0.5s linear;
 }
