@@ -44,7 +44,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 article {
@@ -59,7 +58,6 @@ article {
     outline-width: 10px;
     outline-style: none;
     margin: 0px 0px;
-    
 }
 
 article > a {
@@ -157,7 +155,6 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 aside {
