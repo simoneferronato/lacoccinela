@@ -32,11 +32,11 @@ h1 {
     background-repeat: no-repeat;
     background-position: right center;
     font-family: var(--fonte1);
-    color: rgb(199, 15, 15);
+    color: rgb(240, 9, 9);
     font-size: 5em;
     text-align: center;
     text-shadow: 2px 2px 0px white;
-    padding: 60px 90px;
+    padding: 50px 90px;
     margin: 0px;
     border-radius: 5px;
     height: 200px;
